@@ -1,4 +1,6 @@
 public class Patient {
+    
+    //modificacion desde github web
 
     int idPatient;
     private String nombre;
@@ -53,8 +55,8 @@ public class Patient {
     }
 
     public void setPhoneNumber(String phoneNumber) {
-        if(phoneNumber.length() > 10){
-            System.out.println("El numero telefonico debe ser de 10 digistos ");
+        if(phoneNumber.length() > 11){
+            System.out.println("El numero telefonico debe ser de 11 digistos ");
         }else if(phoneNumber.length() == 10){
             this.PhoneNumber = phoneNumber;
         }
